@@ -1,0 +1,6 @@
+# Lazy.nvim
+/lazy-lock.json
+/.lazy/
+
+# OS / editor junk
+.DS_Store
