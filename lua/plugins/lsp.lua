@@ -53,7 +53,7 @@ return {
         map("n", "K", vim.lsp.buf.hover, "Hover docs")
         map("n", "<leader>rn", vim.lsp.buf.rename, "Rename")
         map({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, "Code action")
-        map("n", "<leader>e", vim.diagnostic.open_float, "Line diagnostics")
+        map("n", "<leader>ld", vim.diagnostic.open_float, "Line diagnostics")
         map("n", "[d", vim.diagnostic.goto_prev, "Prev diagnostic")
         map("n", "]d", vim.diagnostic.goto_next, "Next diagnostic")
         map("n", "<leader>q", vim.diagnostic.setloclist, "Diagnostics list")
