@@ -24,3 +24,6 @@ vim.opt.splitright = true
 vim.opt.splitbelow = true
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
+
+-- Terminal
+vim.opt.autochdir = false
